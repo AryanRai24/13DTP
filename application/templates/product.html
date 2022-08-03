@@ -1,0 +1,15 @@
+{%extends "base.html"%}
+{%block content%}
+
+{% for p in product %}
+
+<div class="product"> 
+
+    <h1>{{ p.name }} </h1>
+
+</div>
+
+
+{%endfor%}
+
+{%endblock%}
